@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PivoProSDK"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "Pivo SDK to control Pivo and also includes tracking and following algorithms"
 
   # This description is used to generate tags and improve search results.
@@ -85,7 +85,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/pivo-inc/pivo-pro-sdk-ios.git", :tag => "0.0.7" }
+  spec.source       = { :git => "https://github.com/pivo-inc/pivo-pro-sdk-ios.git", :tag => "0.0.8" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
