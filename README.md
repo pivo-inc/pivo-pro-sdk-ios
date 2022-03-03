@@ -19,7 +19,7 @@ In version 0.0.8:
 - Build with Swift 5.5
 - In order to get `Rotated` feedback when rotates Pivo, please make sure to use `turnLeftWithFeedback` and `turnRightWithFeedback` with speed from `getSupportedSpeedsByRemoteControllerInSecoundsPerRound`
 
-In version 1.0.0:
+In version 0.0.9:
 
 By Pass Remote Controller is the ability that the Pod ignores the command from remote controller. For example, if by pass is off, click rotate left button on the remote controller will result the pod rotates to the left, the app gets the feedback. If by pass is on, click rotate left button on the remote controller, the pod won't rotate but the app still gets the feedback
  
