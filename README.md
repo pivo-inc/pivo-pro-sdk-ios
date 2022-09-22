@@ -25,3 +25,7 @@ By Pass Remote Controller is the ability that the Pod ignores the command from r
  
 - Add functions to check whether a Pivo Pod supports By Pass Remote Controller by `isByPassRemoteControllerSupported()` function
 - Add functions to turn on and turn off By Pass Remote Controller by `turnOnByPassRemoteController()` and `turnOffBypassRemoteController()` functions
+
+In version 0.0.10:
+
+- Build with XCode 14.0 to support iOS 16
