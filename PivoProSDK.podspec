@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "PivoProSDK"
   spec.version      = "1.0.1"
-  spec.summary      = "Pivo SDK to control Pivo and also includes tracking and following algorithms"
+  spec.summary      = "Pivo Pro SDK"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -51,9 +51,9 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "3i" => "app@3i.ai" }
+  spec.author             = { "3i Inc." => "app@3i.ai" }
   # Or just: spec.author    = "3i"
-  # spec.authors            = { "3i" => "app@3i.ai" }
+  # spec.authors            = { "3i Inc." => "app@3i.ai" }
   # spec.social_media_url   = "https://twitter.com/Do Thanh Tuan"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -85,7 +85,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/3i-inc/pivo-pro-sdk-ios.git", :tag => "1.0.1" }
+  spec.source       = { :git => "https://github.com/pivo-inc/pivo-pro-sdk-ios.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
