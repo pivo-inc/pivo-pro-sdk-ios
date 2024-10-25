@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "PivoProSDK"
-  spec.version      = "0.0.2"
+  spec.version      = "1.0.1"
   spec.summary      = "Pivo SDK to control Pivo and also includes tracking and following algorithms"
 
   # This description is used to generate tags and improve search results.
@@ -53,7 +53,7 @@ Pod::Spec.new do |spec|
 
   spec.author             = { "3i" => "app@3i.ai" }
   # Or just: spec.author    = "3i"
-  # spec.authors            = { "3i" => "app@3i.ai", "Do Thanh Tuan" => "tuando@next-aeon.com" }
+  # spec.authors            = { "3i" => "app@3i.ai" }
   # spec.social_media_url   = "https://twitter.com/Do Thanh Tuan"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -63,7 +63,14 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-  spec.platform     = :ios, "9.0"
+  spec.platform     = :ios, "12.0"
+    
+  spec.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  spec.user_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -78,7 +85,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/3i-inc/pivo-pro-sdk-ios.git", :tag => "0.0.2" }
+  spec.source       = { :git => "https://github.com/3i-inc/pivo-pro-sdk-ios.git", :tag => "1.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
