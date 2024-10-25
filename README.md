@@ -29,3 +29,6 @@ By Pass Remote Controller is the ability that the Pod ignores the command from r
 In version 0.0.10:
 
 - Build with XCode 14.0 to support iOS 16
+
+In version 1.0.1:
+- Support Pivo Max
