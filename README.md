@@ -32,3 +32,7 @@ In version 0.0.10:
 
 In version 1.0.1:
 - Support Pivo Max
+
+In version 1.0.2:
+- Hide Horse Tracking
+- Add Face Tracking
