@@ -1,7 +1,7 @@
 framework module PivoProSDK {
   umbrella header "PivoProSDK.h"
-
   export *
+
   module * { export * }
 }
 

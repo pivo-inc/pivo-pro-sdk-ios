@@ -41,6 +41,7 @@
     "availability" : {
       "macOS" : "10.14",
       "tvOS" : "12.0",
+      "visionOS" : "1.0",
       "watchOS" : "5.0",
       "iOS" : "12.0",
       "macCatalyst" : "12.0"
@@ -92,8 +93,8 @@
     ],
     "generatedClassName" : "face",
     "userDefinedMetadata" : {
-      "classes" : "face",
       "confidence_threshold" : "0.4",
+      "classes" : "face",
       "iou_threshold" : "0.6",
       "coremltoolsVersion" : "3.4"
     },
