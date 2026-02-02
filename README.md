@@ -36,3 +36,6 @@ In version 1.0.1:
 In version 1.0.2:
 - Hide Horse Tracking
 - Add Face Tracking
+
+In version 1.0.3:
+- Easing function enabled
